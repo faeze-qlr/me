@@ -8,9 +8,9 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
     } else {
-        var en = ['Home', 'Projects', 'Professions', 'Education',
-                'Internship', 'Current Position', 'Contact Me'];
-        var cn = ['Home', 'Projects', 'Professions', 'Education', 'Internship', 'Current Position', 'Contact Me'];
+        var en = ['Home', 'Projects', 'Skills', 'Education',
+                'Employment history', 'AWARDS', 'Contact Me'];
+        var cn = ['Home', 'Projects', 'Skills', 'Education', 'Employment History', 'AWARDS', 'Contact Me'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
         $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
