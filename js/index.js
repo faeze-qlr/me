@@ -10,7 +10,7 @@ $(document).ready(function() {
     } else {
         var en = ['Home', 'Projects', 'Skills', 'Education',
                 'Employment history', 'AWARDS', 'Contact Me'];
-        var cn = ['Home', 'Projects', 'Skills', 'Education', 'Employment History', 'AWARDS', 'Contact Me'];
+        var cn = ['خانه', 'پروژه ها', 'Skills', 'Education', 'Employment History', 'AWARDS', 'Contact Me'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
         $('.section').addClass('initing');
         $('#pagepiling').pagepiling({
